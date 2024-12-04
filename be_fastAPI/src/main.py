@@ -12,8 +12,8 @@ from utils.scraper_job import WellfoundJobScraper
 
 app = FastAPI(
     title="Backend for JobBoard",
-    description="",
-    version=""
+    description="Dexy AI Assignment",
+    version="1.0.0"
 )
 
 # Add CORS middleware
