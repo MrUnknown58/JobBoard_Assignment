@@ -32,7 +32,7 @@ executor = ThreadPoolExecutor(max_workers=3)
 scraping_cache = {}
 
 class JobRequest(BaseModel):
-    role: str = 'backend-engineer'
+    role: str = 'frontend-developer'
     location: Optional[str] = "india"
     num_pages: Optional[int] = 1
 
